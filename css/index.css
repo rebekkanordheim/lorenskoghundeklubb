@@ -3,12 +3,16 @@
   }
 
 .navbar {
-  background-color: #2e2f7d55;
+  border-bottom: 2px solid #2e2f7d;;
 }
 
 body {
-  /* padding: 10px; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.977), rgba(0, 0, 0, 0.221)), url(/images/corgi.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+
 .body-wrapper {
   padding: 20px;
 }
@@ -25,13 +29,18 @@ footer {
   padding: 20px;
 }
 
-footer a {
+footer a,
+.footerlinkto {
   color: #fff;
   text-decoration: none;
 }
 
-.fa-brands {
+.fa-brands,
+.linkto {
   padding: 10px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 h1,
@@ -42,4 +51,9 @@ a,
 text
  {
     font-family: 'Nunito', sans-serif;
+}
+
+.container p, h1, h2 {
+  text-align: left;
+  padding: 40px;
 }
