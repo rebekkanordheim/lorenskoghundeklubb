@@ -7,7 +7,6 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.977), rgba(0, 0, 0, 0.221)), url(/images/corgi.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -17,12 +16,41 @@ body {
   padding: 20px;
 }
 
+/* .welcome-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+} */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: relative;
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -100%); 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 30px;
+  text-align: center;
+}
+
 footer {
   background-color: #2e2f7d;
   color: #fff;
   text-align: center;
   bottom: 0;
   width: 100%;
+  margin-top: auto;
 }
 
 .footer-block {
@@ -38,9 +66,13 @@ footer a,
 .fa-brands,
 .linkto {
   padding: 10px;
-  color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
 }
 
 h1,
@@ -48,8 +80,7 @@ h2,
 h3,
 p,
 a,
-text
- {
+text {
     font-family: 'Nunito', sans-serif;
 }
 
