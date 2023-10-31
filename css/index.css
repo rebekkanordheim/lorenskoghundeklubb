@@ -83,8 +83,26 @@ a,
 text {
     font-family: 'Nunito', sans-serif;
 }
+h1, 
+h2, 
+h3 {
+  text-align: center;
+}
 
-.container p, h1, h2 {
+.container p {
   text-align: left;
   padding: 40px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.container h1, h2 {
+  text-align: center;
+  padding: 40px;
+}
+
+.medlemspris {
+  text-align: right;
 }
