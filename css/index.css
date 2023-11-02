@@ -106,3 +106,7 @@ h3 {
 .medlemspris {
   text-align: right;
 }
+
+.infolink {
+  color: var(--bs-black);
+}
