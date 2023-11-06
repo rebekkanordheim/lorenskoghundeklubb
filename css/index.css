@@ -85,6 +85,10 @@ text {
     font-family: 'Nunito', sans-serif;
 }
 
+body p {
+  font-size: 18px;
+}
+
 h1, 
 h2, 
 h3 {
