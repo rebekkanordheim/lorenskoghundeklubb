@@ -126,3 +126,7 @@ h3 {
   align-items: center;
   
 }
+
+.enkeltliste ul {
+  list-style-type: none
+}
