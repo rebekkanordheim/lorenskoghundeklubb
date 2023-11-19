@@ -33,6 +33,10 @@ body {
   height: auto;
 }
 
+.innholdsbilde {
+  width: 150px;
+}
+
 .overlay-text {
   position: relative;
   top: 40%;
@@ -91,6 +95,8 @@ li {
 
 h2 {
   font-size: 28px;
+  text-decoration: underline 2px;
+  text-align: center;
 }
 
 body p,
@@ -105,10 +111,6 @@ li {
 .container p {
   text-align: left;
   padding: 20px;
-}
-
-.row {
-  padding-top: 20px;
 }
 
 .container h1,
@@ -132,13 +134,16 @@ h2 {
   align-items: center;
 }
 
-.styreliste {
+.liste ,
+.info{
   display: flex;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .enkeltliste {
-  padding: 20px;
+  padding: 15px;
 }
 
 .enkeltliste ul {
