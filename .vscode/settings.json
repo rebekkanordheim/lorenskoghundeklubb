@@ -1,8 +1,6 @@
 {
   "cSpell.words": [
-    "Aase",
     "Aktiviteter",
-    "Årseth",
     "atmosfære",
     "Besøksadresse",
     "bruks",
@@ -22,6 +20,7 @@
     "hundekurs",
     "hunder",
     "inkluderer",
+    "innholdsbilde",
     "Kleven",
     "klubb",
     "Klubbens",
@@ -29,10 +28,10 @@
     "Leder",
     "Lehnskaugen",
     "Lene",
-    "Løken",
-    "Lørenskog",
     "Losbyveien",
     "lydighet",
+    "Løken",
+    "Lørenskog",
     "medlem",
     "medlemmer",
     "Mette",
@@ -60,7 +59,9 @@
     "trivelig",
     "utveksle",
     "varierte",
-    "Velkommen"
+    "Velkommen",
+    "Årseth",
+    "Aase"
   ],
   "liveServer.settings.port": 5502
 }
