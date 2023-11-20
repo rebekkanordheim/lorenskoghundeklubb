@@ -8,6 +8,7 @@
 
 body {
   background-position: center;
+  background-color: #2e2f7d1d;
   background-size: cover;
   position: relative;
 }
@@ -15,12 +16,6 @@ body {
 .body-wrapper {
   padding: 20px;
 }
-
-/* .welcome-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-} */
 
 .image-container {
   position: relative;
@@ -38,34 +33,43 @@ body {
 }
 
 .overlay-text {
-  position: relative;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 30px;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #00000073; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
   text-align: center;
+}
+.overlay-text {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
 }
 
 footer {
   background-color: #2e2f7d;
   color: #fff;
-  text-align: center;
   bottom: 0;
   width: 100%;
-  margin-top: auto;
+  margin-top: 20px;
 }
 
 .footer-block {
   padding: 20px;
   margin-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer a,
 .footerlinkto {
   color: #fff;
   text-decoration: none;
+  padding: 10px;
 }
 
 .fa-brands,
@@ -95,10 +99,9 @@ li {
 
 h2 {
   font-size: 28px;
-  text-decoration: underline 2px;
+  text-decoration: underline 1px;
   text-align: center;
 }
-
 
 .btn {
   font-size: 18px;
@@ -109,9 +112,8 @@ p {
   font-size: 22px;
 }
 
-.container p {
+.container /* p */ {
   text-align: left;
-  padding: 20px;
 }
 
 .container h1,
