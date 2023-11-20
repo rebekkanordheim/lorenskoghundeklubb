@@ -28,10 +28,6 @@ body {
   height: auto;
 }
 
-.innholdsbilde {
-  width: 300px;
-}
-
 .overlay-text {
   position: absolute;
   top: 50%; 
@@ -110,6 +106,7 @@ h2 {
 li,
 p {
   font-size: 22px;
+  text-align: left;
 }
 
 .container /* p */ {
@@ -118,12 +115,8 @@ p {
 
 .container h1,
 h2 {
-  text-align: left;
-  padding: 20px;
-}
-
-.medlemspris {
-  text-align: right;
+  text-align: center;
+  margin: 20px;
 }
 
 .infolink {
@@ -150,6 +143,7 @@ h2 {
   margin-left: 30px;
 }
 
-.enkeltliste ul {
+.enkeltliste ul,ul {
   list-style-type: none;
+  text-align: left;
 }
