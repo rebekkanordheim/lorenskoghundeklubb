@@ -31,6 +31,7 @@ body {
   object-fit: cover;
   object-position: center bottom;
   transform: translate(0%, -20%);
+  filter: brightness(70%);
 }
 
 .overlay-text {
@@ -175,4 +176,15 @@ ul {
   height: 80%;
   width: 80%;
   position: absolute;
+}
+
+.informasjons-bilde {
+  width: fit-content;
+  max-width: 400px;
+  border-radius: 5px;
+  filter: brightness(85%);
+}
+
+.informasjons-logo {
+  width: 200px;
 }
