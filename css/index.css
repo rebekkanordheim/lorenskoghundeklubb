@@ -29,12 +29,12 @@ body {
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center ;
   transform: translate(0%, -20%);
-  filter: brightness(70%);
+  filter: brightness(80%);
 }
 
-.overlay-text {
+/* .overlay-text {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -44,15 +44,14 @@ body {
   padding: 10px 20px;
   font-size: 30px;
   text-align: center;
-  z-index: 0;
-  /* Set a lower z-index for the overlay-text */
+  z-index: 1;
   margin: 0 0 20px;
 }
 
 .overlay-text {
   font-size: 28px;
   font-family: "Manrope", sans-serif;
-}
+} */
 
 footer {
   background-color: #2e2f7d;
