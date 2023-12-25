@@ -18,40 +18,27 @@ body {
 }
 
 .image-container {
-  overflow: hidden;
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  object-position: center bottom;
+  position: relative;
+  display: inline-block;
 }
 
 .image-container img {
-  max-width: 100%;
+  display: block;
+  width: 100%;
   height: auto;
-  object-fit: cover;
-  object-position: center ;
-  transform: translate(0%, -20%);
-  filter: brightness(80%);
-}
-
-/* .overlay-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -140%);
-  color: #fff;
-  background-color: #0000007e;
-  padding: 10px 20px;
-  font-size: 30px;
-  text-align: center;
-  z-index: 1;
-  margin: 0 0 20px;
 }
 
 .overlay-text {
-  font-size: 28px;
-  font-family: "Manrope", sans-serif;
-} */
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #0000004c; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+}
 
 footer {
   background-color: #2e2f7d;
@@ -178,12 +165,29 @@ ul {
 }
 
 .informasjons-bilde {
-  width: fit-content;
   max-width: 400px;
+  height: 250px;
   border-radius: 5px;
-  filter: brightness(85%);
+}
+.informasjons-bilde2 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .informasjons-bilde2 {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .informasjons-logo {
   width: 200px;
+}
+
+.flex-video {
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
 }
