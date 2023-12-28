@@ -196,6 +196,12 @@ ul {
   align-items: center;
 }
 
+.informasjons-bilde4 {
+  width: 700px;
+  height: auto;
+  border-radius: 5px;
+}
+
 .informasjons-logo {
   width: 200px;
 }
