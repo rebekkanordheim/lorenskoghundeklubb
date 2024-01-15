@@ -39,7 +39,6 @@ body {
   font-size: 30px; 
   text-align: center;
   font-size: 40px;
-  border: 1px dotted white;
 }
 @media (max-width: 479px) {
   .overlay-text {
