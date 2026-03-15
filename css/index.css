@@ -36,16 +36,14 @@ body {
   background-color: #6566a100; 
   color: #fff; 
   padding: 10px 20px; 
-  font-size: 30px; 
-  text-align: center;
   font-size: 40px;
+  text-align: center;
 }
 @media (max-width: 479px) {
   .overlay-text {
     font-size: 28px;
   }
 }
-
 
 footer {
   background-color: #2e2f7d;
@@ -61,7 +59,7 @@ footer {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer a,
@@ -83,15 +81,7 @@ footer a,
   margin: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 p,
-a,
-text,
-ul,
-li {
+h1, h2, h3, h4, h5, p, a, text, ul, li {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
@@ -102,7 +92,6 @@ li {
 
 h2 {
   font-size: 28px;
-  text-align: center;
 }
 
 .btn {
@@ -120,28 +109,13 @@ p {
   padding-top: 20px;
 }
 
-.container h1,
-h2,
-h3 {
+.container h1, h2, h3 {
   text-align: left;
 }
 
 .infolink {
   color: var(--bs-black);
 }
-
-/* .liste {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-
-.enkeltliste {
-  padding: 15px;
-  margin-left: 30px;
-} */
 
 .liste {
   display: flex;
@@ -151,12 +125,13 @@ h3 {
   margin-top: 30px;
   gap: 30px;
 }
+
 .enkeltliste {
   padding: 15px;
   margin-left: 0;
 }
-.enkeltliste ul,
-ul {
+
+.enkeltliste ul, ul {
   text-align: left;
 }
 
@@ -180,10 +155,12 @@ ul {
   position: absolute;
 }
 
-.informasjons-bilde {
-  max-width: 400px;
-  height: 250px;
+.informasjons-bilde,
+.card-img-top {
+  max-width: 180px;
+  height: auto;
   border-radius: 5px;
+  margin: 0 auto 15px auto;
 }
 
 .informasjons-bilde2 {
@@ -198,11 +175,12 @@ ul {
     height: auto;
   }
 }
+
 .informasjons-bilde3 {
   width: 300px;
   height: auto;
   border-radius: 5px;
-  margin: 5px;
+  margin: 5px auto;
   align-items: center;
 }
 
@@ -217,7 +195,7 @@ ul {
   height: auto;
   border-radius: 5px;
   display: block;
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;
 }
 
 .informasjons-logo {
@@ -246,10 +224,7 @@ ul {
   }
 }
 
-.card-img-top {
-  max-width: 200px;
-  height: auto;
-  border-radius: 5px;
-  display: block;
-  margin-bottom: 15px;
+.card {
+  max-width: 220px;
+  margin: 0 auto;
 }
