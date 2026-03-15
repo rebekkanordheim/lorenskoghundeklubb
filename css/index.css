@@ -239,3 +239,9 @@ ul {
 .hovedbakgrunn {
   filter: brightness(70%);
 }
+
+@media (max-width: 767px) {
+  .row > .col-12 {
+    margin-bottom: 2rem;
+  }
+}
