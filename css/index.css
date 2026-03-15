@@ -245,3 +245,11 @@ ul {
     margin-bottom: 2rem;
   }
 }
+
+.card-img-top {
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
