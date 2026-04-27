@@ -155,12 +155,22 @@ p {
   position: absolute;
 }
 
-.informasjons-bilde,
+/* .informasjons-bilde,
 .card-img-top {
   max-width: 180px;
   height: auto;
   border-radius: 5px;
   margin: 0 auto 15px auto;
+} */
+.informasjons-bilde,
+.card-img-top {
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
 .informasjons-bilde2 {
